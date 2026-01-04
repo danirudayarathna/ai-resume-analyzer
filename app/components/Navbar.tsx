@@ -7,7 +7,7 @@ const Navbar: () => React.JSX.Element = () => {
             <Link to="/">
                 <p className={"text-2xl font-bold text-gradient"}>CVaid</p>
             </Link>
-            <Link to={"/upload"}>
+            <Link to="/upload" className="primary-button w-fit">
                 Upload CV
             </Link>
         </div>
